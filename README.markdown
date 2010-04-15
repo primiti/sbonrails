@@ -44,6 +44,10 @@ Next migrate the database to the latest version:
 
     rake db:migrate
 
+Populate sample data
+
+    rake db:seed_fu
+
 At last, we can run the server:
 
     script/server
